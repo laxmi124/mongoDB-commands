@@ -9,4 +9,4 @@ db.users.findOne({})
 db.users.remove({"_id" : ObjectId("625c30bf5e355ab5b3c25faf")})    ---- remove by id number
 db.users.insert({"first_name":"Laxmi","last_name":"Dutta","email":"duttasuravi@gmail.com","gender":"female","ip_address":"1.1.1.0","age":"20"})
 db.users.remove({ "first_name" : "Laxmi"})  ------- remove all laxmi 
-
+db.dropDatabase()
